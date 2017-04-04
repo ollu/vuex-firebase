@@ -6,20 +6,20 @@ Vue.use(Vuex)
 
 let config = {
   live: {
-    apiKey: "XYZ",
-    authDomain: "YOUR-APP.firebaseapp.com",
-    databaseURL: "https://YOUR-APP.firebaseio.com",
-    projectId: "YOUR-APP",
-    storageBucket: "YOUR-APP.appspot.com",
-    messagingSenderId: "666"
+    apiKey: 'XYZ',
+    authDomain: 'YOUR-APP.firebaseapp.com',
+    databaseURL: 'https://YOUR-APP.firebaseio.com',
+    projectId: 'YOUR-APP',
+    storageBucket: 'YOUR-APP.appspot.com',
+    messagingSenderId: '666'
   },
   dev: {
-    apiKey: "XYZ",
-    authDomain: "YOUR-APP.firebaseapp.com",
-    databaseURL: "https://YOUR-APP.firebaseio.com",
-    projectId: "YOUR-APP",
-    storageBucket: "YOUR-APP.appspot.com",
-    messagingSenderId: "666"
+    apiKey: 'XYZ',
+    authDomain: 'YOUR-APP.firebaseapp.com',
+    databaseURL: 'https://YOUR-APP.firebaseio.com',
+    projectId: 'YOUR-APP',
+    storageBucket: 'YOUR-APP.appspot.com',
+    messagingSenderId: '666'
   }
 }
 
@@ -34,7 +34,7 @@ let db = Firebase.database()
 
 let store = new Vuex.Store({
   state: {
-    data: '',
+    data: ''
   },
   mutations: {
     updateData (state, data) {
