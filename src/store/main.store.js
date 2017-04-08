@@ -25,7 +25,7 @@ let config = {
 
 let activeConfig = config.dev
 
-if (window.location.host.indexOf('your-domain.nu') !== -1) {
+if (window.location.host.indexOf('YOUR-DOMAIN.NU') !== -1) {
   activeConfig = config.live
 }
 
